@@ -1,0 +1,72 @@
+#root{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    display: flex;
+}
+
+#container{
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 150px 40px 140px 40px;
+}
+
+#container section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+    padding: 200px 50px 200px 50px;
+}
+
+#sreenWelcome{
+    background-color: #9531f3;
+    border: solid 2px #842bd8;
+    border-right: none;
+    border-radius: 10px 0px 0px 10px;
+}
+
+
+#sreenWelcome h1{
+    color: #fff;
+    font-size: 55px;
+    margin-top: 0px;
+}
+
+#titulo{
+    color: #e1e3eb;
+    font-size: 30px;
+}
+
+#screenLogin h2{
+    color: #9531f3;
+    font-size: 25px;
+}
+
+#screenLogin{
+    border: solid 2px #ddddddd7;
+    border-left: none;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#screenLogin input{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+#btnSubmit{
+    background-color: #9531f3;
+    color: #fff;
+    width: 420px;
+    height: 45px;
+    border-radius: 8px;
+    border: solid 1px #9531f3;
+    cursor: pointer;
+}
